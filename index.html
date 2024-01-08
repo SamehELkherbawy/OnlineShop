@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>online shop home page</title>
+    <link rel="website icon" type="gif" href="stickergiant-swipe-up.gif">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+            <img id="logo" src="fasttech-high-resolution-logo-transparent.png">
+          </div> 
+            <div id="content">
+                <input type="checkbox" id="toggle">
+            <label for="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+                <div class="menu">
+                <div class="right-content">
+
+                    
+                    
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="#lapcontent">Laptop</a></li>
+                          <li><a class="dropdown-item" href="#phonecontent">Phone</a></li>
+                          <li><a class="dropdown-item" href="#accessoriescontent">Accessories</a></li>
+                        </ul>
+                      </div>
+
+                    <span class="signin" onclick="window.location.href= 'user.html'">Sign In</span>
+                    <span class="Contactus"><a href="#socialmedia">Contact Us</a></span>
+
+                    
+                    
+                    </div>
+                </div>
+            </div>
+
+            
+            
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping" id="open"></i>
+            <div class="quantity">0</div>
+            </div>
+            </div>
+
+            <div class="cart-menu">
+                <h2>Your list</h2> 
+                <i class="fa-solid fa-circle-xmark" id="close"></i>
+
+                <div class="list">
+                    <ul class="cartlist">
+                        
+                    </ul>
+                </div>
+                <div class="totaldiv">
+                    <div>Total</div>
+                    <div class="total">0 LE</div>
+                </div>
+
+            </div>
+
+    </header>
+
+
+
+    <section class="container" id="container">
+
+        <form>
+            <i class="fas fa-search" id="sicon"></i>
+            <input type="search" name="" id="search-item" placeholder="Search products">
+        </form>
+
+        <h2 class="Product-title">Laptop</h2>
+        <div class="lapcontent" id="lapcontent">
+
+        </div>
+
+        <h2 class="Product-title">Phone</h2>
+        <div class="phonecontent" id="phonecontent">
+
+        </div>
+
+        <h2 class="Product-title">accessories</h2>
+        <div class="accessoriescontent" id="accessoriescontent">
+
+        </div>
+    </section>
+
+    <div class="contentpro" id="contentpro">
+        <ul>
+
+        </ul>
+        <i class="fa-solid fa-circle-xmark" id="close2"></i>
+        <div>sssssss</div>
+    </div>
+
+    <section class="locationmap" id="locationmap">
+        <div class="map">
+            <h2>Google Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.243638068355!2d31.018981124657945!3d29.972427374960066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145851ee0be1eec3%3A0xa5b302adfcac13d1!2z2YXZiNmEINmF2LXYsQ!5e0!3m2!1sar!2seg!4v1704389638985!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                </div>
+                <i class="fa-solid fa-circle-xmark" id="close4"></i>
+    </section>
+
+    <footer>
+        <div class="navfooter">
+            <h3>sameh.elkherbawyⒸcopywrite</h3>
+            <span class="map1">Map</span>
+            <ul class="socialmedia" id="socialmedia">
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" id="fb"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" id="ins"></i></a></li>
+                <li><a href="https://wa.me/"><i class="fa-brands fa-whatsapp" id="wp"></i></a></li>
+
+            </ul>
+        </div>
+
+    </footer>
+
+
+
+<script src="main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

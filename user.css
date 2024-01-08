@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.video-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+  
+  #myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+    z-index: -15;
+}
+.background{
+    text-align: center;
+    background-color: dodgerblue;
+    margin: 10%;
+    border-radius: 15px;
+    opacity: 90%;
+
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img {
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+}
+
+label{
+    display: block;
+    margin-top: 25px;
+    font-size: xx-large;
+}
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+#password{
+    font-size: x-small;
+    text-align: center;
+    padding-left: 10px;
+}
+#login{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    color: white;
+    background-color: gray;
+    font-weight: bolder;
+}
+#login:hover{
+    color: black;
+    background-color: green;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.register .skip{
+    width: 60px;
+    font-weight: bolder;
+    background-color: orange;
+}
+.register .skip:hover{
+    color: black;
+    background-color: greenyellow;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.alert{
+    color: red;
+    opacity: 0;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.511);
+    border-radius: 15px;
+
+}
+.alert.action{
+    opacity:1 ;
+}
+.intername{
+    opacity: 0;
+    color: red;
+    padding: 5px;
+}
+.intername.active{
+    opacity: 1;
+}
